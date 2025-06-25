@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.NOTES.Key",
+  "fields": [
+    {
+      "name": "NOTE_ID",
+      "type": "long"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.NOTES",
+  "type": "record"
+}

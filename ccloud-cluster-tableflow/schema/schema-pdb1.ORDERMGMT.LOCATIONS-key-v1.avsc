@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.LOCATIONS.Key",
+  "fields": [
+    {
+      "name": "LOCATION_ID",
+      "type": "long"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.LOCATIONS",
+  "type": "record"
+}

@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.COUNTRIES.Key",
+  "fields": [
+    {
+      "name": "COUNTRY_ID",
+      "type": "string"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.COUNTRIES",
+  "type": "record"
+}

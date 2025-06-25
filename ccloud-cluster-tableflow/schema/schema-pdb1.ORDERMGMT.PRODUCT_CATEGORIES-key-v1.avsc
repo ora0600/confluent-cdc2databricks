@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.PRODUCT_CATEGORIES.Key",
+  "fields": [
+    {
+      "name": "CATEGORY_ID",
+      "type": "long"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.PRODUCT_CATEGORIES",
+  "type": "record"
+}

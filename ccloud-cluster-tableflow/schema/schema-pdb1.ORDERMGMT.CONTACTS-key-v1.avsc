@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.CONTACTS.Key",
+  "fields": [
+    {
+      "name": "CONTACT_ID",
+      "type": "long"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.CONTACTS",
+  "type": "record"
+}

@@ -1,0 +1,60 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.ORDERS.Value",
+  "fields": [
+    {
+      "name": "ORDER_ID",
+      "type": "long"
+    },
+    {
+      "name": "CUSTOMER_ID",
+      "type": "int"
+    },
+    {
+      "name": "STATUS",
+      "type": "string"
+    },
+    {
+      "default": null,
+      "name": "SALESMAN_ID",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "ORDER_DATE",
+      "type": {
+        "connect.name": "io.debezium.time.Timestamp",
+        "connect.version": 1,
+        "type": "long"
+      }
+    },
+    {
+      "default": null,
+      "name": "db_operation_type",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "db_operation_time",
+      "type": [
+        "null",
+        "long"
+      ]
+    },
+    {
+      "default": null,
+      "name": "db_sortable_sequence",
+      "type": [
+        "null",
+        "long"
+      ]
+    }
+  ],
+  "name": "Value",
+  "namespace": "pdb1.ORDERMGMT.ORDERS",
+  "type": "record"
+}

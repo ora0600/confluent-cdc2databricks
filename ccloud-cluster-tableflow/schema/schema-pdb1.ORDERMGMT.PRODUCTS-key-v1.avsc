@@ -1,0 +1,23 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.PRODUCTS.Key",
+  "fields": [
+    {
+      "name": "PRODUCT_ID",
+      "type": {
+        "connect.name": "org.apache.kafka.connect.data.Decimal",
+        "connect.parameters": {
+          "connect.decimal.precision": "19",
+          "scale": "0"
+        },
+        "connect.version": 1,
+        "logicalType": "decimal",
+        "precision": 19,
+        "scale": 0,
+        "type": "bytes"
+      }
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.PRODUCTS",
+  "type": "record"
+}

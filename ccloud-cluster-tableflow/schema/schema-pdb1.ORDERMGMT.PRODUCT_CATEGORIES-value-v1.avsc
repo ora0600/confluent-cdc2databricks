@@ -1,0 +1,40 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.PRODUCT_CATEGORIES.Value",
+  "fields": [
+    {
+      "name": "CATEGORY_ID",
+      "type": "long"
+    },
+    {
+      "name": "CATEGORY_NAME",
+      "type": "string"
+    },
+    {
+      "default": null,
+      "name": "db_operation_type",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "db_operation_time",
+      "type": [
+        "null",
+        "long"
+      ]
+    },
+    {
+      "default": null,
+      "name": "db_sortable_sequence",
+      "type": [
+        "null",
+        "long"
+      ]
+    }
+  ],
+  "name": "Value",
+  "namespace": "pdb1.ORDERMGMT.PRODUCT_CATEGORIES",
+  "type": "record"
+}

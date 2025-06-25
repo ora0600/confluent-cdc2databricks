@@ -1,0 +1,12 @@
+{
+  "connect.name": "pdb1.ORDERMGMT.WAREHOUSES.Key",
+  "fields": [
+    {
+      "name": "WAREHOUSE_ID",
+      "type": "long"
+    }
+  ],
+  "name": "Key",
+  "namespace": "pdb1.ORDERMGMT.WAREHOUSES",
+  "type": "record"
+}
